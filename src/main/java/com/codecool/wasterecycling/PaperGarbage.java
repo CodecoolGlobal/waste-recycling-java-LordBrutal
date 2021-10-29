@@ -11,6 +11,7 @@ public class PaperGarbage extends Garbage {
 
         public void squeeze () {
                 squeezed  = true;
+                System.out.printf("%s is squeezed successfully!%n", getName());
         }
 
         public boolean isSqueezed () {

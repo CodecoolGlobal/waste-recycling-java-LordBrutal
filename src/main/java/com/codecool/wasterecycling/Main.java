@@ -11,6 +11,8 @@ public class Main {
             dustbin.throwOutGarbage(newGarbage2);
             PaperGarbage paperGarbage = new PaperGarbage("Failed exam", false);
             dustbin.throwOutGarbage(paperGarbage);
+            paperGarbage.squeeze();
+            dustbin.throwOutGarbage(paperGarbage);
             PlasticGarbage plasticGarbage = new PlasticGarbage("Empty bottle of oil", false);
             plasticGarbage.clean();
             dustbin.throwOutGarbage(plasticGarbage);

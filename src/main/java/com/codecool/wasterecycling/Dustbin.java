@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Dustbin {
 
-        private String color;
+        private final String color;
         protected Garbage[] houseWasteContent;
         protected Garbage[] plasticGarbageContent;
         protected Garbage[] paperGarbageContent;
